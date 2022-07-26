@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(28, 85, 110);
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    position: sticky;
+    top: 0;
+}
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(156, 156, 156)
+}
+.navigation_list {
+    display: flex;
+}
+.navigation_list-item {
+    margin-left: 40px;
+}
+.navigation_list-item a {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: coral;    
+    font-weight: 400 ;
+}
